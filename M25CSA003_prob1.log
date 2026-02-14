@@ -1,0 +1,82 @@
+==================== RUN 1: Standard Numeric Input ====================
+Reggy: Hello! What is your full name?
+You:   Akshat Jain
+Reggy: Nice to meet you, Mr./Ms. Jain!
+
+Reggy: When were you born? (You can type it any way you like!)
+You:   08-09-2001
+Reggy: I understood that date: 08-09-2001
+Reggy: That makes you 24 years old.
+
+Reggy: How are you feeling right now?
+You:   I am feeling very happy today
+Reggy: That's wonderful! Your happiness is contagious!
+
+==================== RUN 2: Word-based Date & Mood Typo ====================
+Reggy: Hello! What is your full name?
+You:   Rahul Sharma
+Reggy: Nice to meet you, Mr./Ms. Sharma!
+
+Reggy: When were you born? (You can type it any way you like!)
+You:   Feb 14th, 1998
+Reggy: I understood that date: 14-02-1998
+Reggy: That makes you 28 years old.
+
+Reggy: How are you feeling right now?
+You:   I am feeling verry sad and depresed
+Reggy: I'm sorry to hear that. Sending virtual hugs. <3
+
+==================== RUN 3: Short Year Format & Anger Typo ====================
+Reggy: Hello! What is your full name?
+You:   Priya Singh
+Reggy: Nice to meet you, Mr./Ms. Singh!
+
+Reggy: When were you born? (You can type it any way you like!)
+You:   15/08/05
+Reggy: I understood that date: 15-08-2005
+Reggy: That makes you 20 years old.
+
+Reggy: How are you feeling right now?
+You:   Ugh, I am so frustated and angery
+Reggy: Take a deep breath. It's okay to be upset sometimes.
+
+==================== RUN 4: Complex Word Format ====================
+Reggy: Hello! What is your full name?
+You:   Dr. Stephen Strange
+Reggy: Nice to meet you, Mr./Ms. Strange!
+
+Reggy: When were you born? (You can type it any way you like!)
+You:   25th of December 1980
+Reggy: I understood that date: 25-12-1980
+Reggy: That makes you 45 years old.
+
+Reggy: How are you feeling right now?
+You:   I feel fear of the unknown
+Reggy: You are safe here. Don't worry.
+
+==================== RUN 5: Ambiguous Date (DMY vs MDY) ====================
+Reggy: Hello! What is your full name?
+You:   Foreign Exchange Student
+Reggy: Nice to meet you, Mr./Ms. Student!
+
+Reggy: When were you born? (You can type it any way you like!)
+You:   01-02-2003
+Reggy: I understood that date: 01-02-2003
+Reggy: That makes you 23 years old.
+
+Reggy: How are you feeling right now?
+You:   Wow, that is amazing
+Reggy: Whoa! I wasn't expecting that either!
+
+==================== RUN 6: Failure Case (Format not recognized) ====================
+Reggy: Hello! What is your full name?
+You:   Unknown User
+Reggy: Nice to meet you, Mr./Ms. User!
+
+Reggy: When were you born? (You can type it any way you like!)
+You:   I was born in year 2000
+Reggy: I'm sorry, I couldn't figure out that date format.
+
+Reggy: How are you feeling right now?
+You:   I am strictly neutral
+Reggy: I see. Thanks for sharing that with me.

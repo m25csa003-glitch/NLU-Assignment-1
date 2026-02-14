@@ -1,0 +1,29 @@
+Student Name: Akshat Jain
+Roll Number: M25CSA003
+Assignment 1 - Problem 1 Reflection
+
+Reflection on Reggy++ Chatbot
+
+1. How Natural Does It Feel?
+Compared to the basic Reggy we saw in class, my updated version feels much smoother. The best part is that I removed the "Select Option 1 or 2" menu for dates. Now, I can just type "15th Aug 2001" or "08-09-2000" and the bot figures it out nicely. It feels less like an ATM machine and more like a chat.
+
+However, it is still not truly "smart." It catches keywords but misses the actual meaning. For example, if I type "I am not happy," the regex sees the word "happy" and gives a positive response. A real human would understand the "not," but my regex code cannot see that context.
+
+2. Why Regex Works Well Here
+The biggest strength I found is that Regex is super lightweight. I didn't need to install any heavy tools like NLTK or SpaCy; just the standard Python library was enough.
+
+Handling Typos: I really liked how flexible regex is. I wrote patterns like ang.*r which allows the user to make spelling mistakes (like "angery") and the bot still understands they are angry.
+
+Speed: Since it's just pattern matching, the response is instant.
+
+3. Where It Fails (Limitations)
+The main issue I faced was ambiguity.
+
+Date Confusion: If someone types "05-04-2023," my code assumes it is April 5th (Day-Month format). But in the US, this would be May 4th. Regex can't guess the user's location, so it just has to guess based on the logic I wrote.
+
+Surname Logic: My code grabs the last word of the name as the surname. This works for "Akshat Jain" but fails for names like "Robert Downey Jr.," where it awkwardly thinks "Jr." is the family name.
+
+Context: As mentioned before, it can't handle complex sentences, only specific words.
+
+Conclusion:
+Regex is amazing for finding strict patterns like dates or email IDs, but for a chatbot to feel actually human, we definitely need more advanced NLP than just regular expressions.
