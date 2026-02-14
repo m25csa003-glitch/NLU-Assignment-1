@@ -6,7 +6,7 @@
 ##  Project Overview
 This project implements a text classification system to distinguish between **Sports** and **Politics** news articles. Using a dataset of BBC News articles, we compared three different machine learning algorithms to determine the most effective approach for this task.
 
-## 📂 Repository Contents
+##  Repository Contents
 - `M25CSA003_prob1.py`: Regex-based Chatbot (Reggy++)
 - `M25CSA003_prob2.py`: BPE Tokenizer from scratch
 - `M25CSA003_prob3.py`: Naive Bayes Sentiment Classifier
